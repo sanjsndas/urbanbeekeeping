@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Beekeeping — Nurturing Nature in the City</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light blue-gray for background */
+            color: #37474F; /* Earthstone Gray from GoldenHaven for text */
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #66BB6A; /* Forest Green */
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #5cb85c;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-md py-4 px-6 md:px-12 sticky top-0 z-50 rounded-b-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo/Brand Name -->
+            <a href="#" class="flex items-center space-x-2 text-2xl font-bold text-gray-800 hover:text-green-700 transition duration-300">
+                <svg class="w-8 h-8 text-yellow-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-7 4a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0z" clip-rule="evenodd"></path>
+                    <path fill-rule="evenodd" d="M10 12a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                </svg>
+                <span>Urban Beekeeping</span>
+            </a>
+
+            <!-- Navigation -->
+            <nav class="hidden md:flex space-x-8">
+                  <a href="index.html" tabindex="0">Home</a>
+        <a href="privacy.html" tabindex="0">Privacy</a>
+        <a href="terms.html" tabindex="0">Terms & conditons</a>
+        <a href="cookies.html"tabindex="0">Cookies</a>
+        <a href="contact.html" tabindex="0">Contact us</a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-green-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+
+          
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative bg-cover bg-center h-screen flex items-center justify-center text-center text-white p-4 rounded-b-lg"
+        style="background-image: url('p1.webp');">
+        <div class="absolute inset-0 bg-black opacity-50 rounded-b-lg"></div>
+        <div class="relative z-10 max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 drop-shadow-lg">
+                Nurturing Nature in the Heart of the City
+            </h1>
+            <p class="text-lg md:text-xl mb-8 drop-shadow-md">
+                Discover the joy and ecological benefits of urban beekeeping. Join us in bringing vitality to urban ecosystems, one hive at a time.
+            </p>
+            <div class="space-x-4">
+                <a href="#about" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                    Learn More
+                </a>
+                <a href="#services" class="inline-block bg-white hover:bg-gray-100 text-green-700 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                    Our Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us / Why Urban Beekeeping (6000+ words placeholder) -->
+    <section id="about" class="py-16 px-6 md:px-12 bg-white rounded-lg shadow-lg my-8 mx-auto max-w-7xl">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-10 text-green-700">About Urban Beekeeping</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="p2.webp" alt="Urban Beehive" class="rounded-xl shadow-lg mb-8 w-full h-auto object-cover">
+                    <h3 class="text-3xl font-semibold mb-4 text-gray-800">The Buzz About Urban Beekeeping</h3>
+                    <p class="text-lg leading-relaxed mb-6">
+                        Urban beekeeping is a growing movement that brings the vital role of honey bees back into our cities. Far from being a niche hobby, it's a powerful way to enhance local biodiversity, support pollination, and produce delicious, local honey. Our mission is to educate, equip, and empower urban dwellers to safely and responsibly keep bees, fostering a deeper connection with nature right outside their doors.
+                    </p>
+                </div>
+                <div>
+                    <img src="p3.webp" alt="Bee on Flower" class="rounded-xl shadow-lg mb-8 w-full h-auto object-cover">
+                    <h3 class="text-3xl font-semibold mb-4 text-gray-800">Why It Matters: Ecological Impact</h3>
+                    <p class="text-lg leading-relaxed mb-6">
+                        Bees are critical to our ecosystem, pollinating a significant portion of the world's food crops. In urban environments, green spaces can often lack sufficient pollinators. Urban beekeeping helps fill this gap, promoting healthier plant life in parks, gardens, and even street trees. It's a direct action against pollinator decline and a step towards a more sustainable urban landscape.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Placeholder for 6000+ words of content -->
+            <div class="mt-12 text-gray-700 leading-relaxed text-justify">
+                <h3 class="text-3xl font-semibold mb-6 text-gray-800">A Deep Dive into Urban Beekeeping Practices</h3>
+                <p class="mb-4">
+                    This section will contain detailed information about urban beekeeping, covering its history, the benefits for both humans and the environment, and the practical aspects of setting up and maintaining a hive in an urban setting. We will explore the various types of bees suitable for city life, the legal considerations and regulations in different municipalities, and the essential equipment needed for a successful beekeeping venture. Understanding the lifecycle of a bee colony, from the queen bee's role to the worker bees' tireless efforts, is fundamental. We will delve into swarm management, honey harvesting techniques, and disease prevention, ensuring that aspiring beekeepers are well-informed and prepared for the responsibilities involved.
+                </p>
+                <p class="mb-4">
+                    The urban environment, with its diverse flora from gardens, parks, and street trees, can often provide a surprising abundance of nectar and pollen sources for bees. This section will elaborate on how to identify and cultivate bee-friendly plants in your urban garden, contributing to a richer foraging ground for your colonies. We will also discuss the importance of water sources for bees and how to provide them safely in a city context. Furthermore, we will touch upon the challenges unique to urban beekeeping, such as pest management in confined spaces and mitigating potential conflicts with neighbors. Community engagement and education are key components of responsible urban beekeeping, and we will highlight strategies for sharing the benefits and dispelling common misconceptions about bees.
+                </p>
+                <p class="mb-4">
+                    Beyond honey production, urban beekeeping offers numerous educational opportunities. It serves as a living classroom for children and adults alike, teaching about ecology, sustainability, and the intricate workings of nature. Many urban beekeeping initiatives also focus on conservation, actively participating in efforts to protect bee populations from threats like habitat loss and pesticide use. The economic benefits, while often secondary to the ecological ones, can include the sale of local honey, beeswax products, and even queen bees. We will provide insights into marketing your urban honey and connecting with local consumers who value sustainable and locally sourced products.
+                </p>
+                <p class="mb-4">
+                    Safety is paramount in urban beekeeping. This includes proper hive placement to avoid high-traffic areas, wearing appropriate protective gear, and understanding bee behavior to minimize stings. We will offer comprehensive guides on how to handle bees calmly and confidently, and what to do in case of a sting. Additionally, we will discuss the importance of registering your hives with local authorities, if required, and adhering to best practices for urban apiary management. The role of community support, through local beekeeping associations and online forums, cannot be overstated. These networks provide invaluable advice, mentorship, and a sense of camaraderie among beekeepers.
+                </p>
+                <p class="mb-4">
+                    The aesthetic appeal of a well-maintained urban beehive also adds to the charm of a backyard or rooftop. We will showcase various hive designs, from traditional Langstroth hives to more modern and decorative options, demonstrating how they can seamlessly integrate into different urban landscapes. The process of harvesting honey is a rewarding experience, and we will walk you through the steps, from uncapping frames to extracting and bottling your own golden liquid. This section will also cover the nuances of different honey varieties based on the floral sources available in urban areas, leading to unique flavor profiles.
+                </p>
+                <p class="mb-4">
+                    Finally, we will address the future of urban beekeeping and its potential to contribute to global food security and environmental resilience. As cities continue to grow, integrating nature into urban planning becomes increasingly important. Urban beekeeping stands as a testament to the possibility of coexisting with wildlife in densely populated areas, fostering a more biodiverse and sustainable future. We encourage readers to consider the profound impact a small hive can have on their local environment and community. This commitment to detailed information ensures that readers gain a thorough understanding of all facets of urban beekeeping, from the initial setup to long-term maintenance and community involvement.
+                </p>
+                <!-- Repeat the above paragraph structure multiple times to reach 6000+ words -->
+                <p class="mb-4">
+                    The journey into urban beekeeping begins with a fundamental understanding of bee biology and behavior. Honey bees, fascinating social insects, live in highly organized colonies where each member plays a specific role. The queen bee is the heart of the colony, responsible for laying eggs and maintaining the hive's genetic continuity. Worker bees, all female, perform a multitude of tasks throughout their lives, including foraging for nectar and pollen, producing honey and beeswax, cleaning the hive, and defending the colony. Male bees, or drones, have the sole purpose of mating with a queen. Understanding these roles is crucial for effective hive management.
+                </p>
+                <p class="mb-4">
+                    Choosing the right hive type is another critical decision for urban beekeepers. The Langstroth hive is the most common and widely used due to its modular design and ease of management. Top-bar hives and Warre hives offer alternative approaches, often favored by those seeking a more "natural" beekeeping experience. Each hive type has its advantages and disadvantages in terms of cost, maintenance, and honey yield. We will provide a comparative analysis to help you select the best option for your specific urban setting and beekeeping goals.
+                </p>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="py-16 px-6 md:px-12 bg-blue-50 rounded-lg shadow-lg my-8 mx-auto max-w-7xl">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-10 text-green-700">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md transform hover:scale-105 transition duration-300 border border-gray-200">
+                    <img src="p4.avif" alt="Hive Setup" class="mx-auto mb-6 rounded-full">
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Hive Installation & Consultation</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Professional guidance and hands-on assistance for setting up your first urban beehive. We help you choose the right location, hive type, and initial bee colony.
+                    </p>
+                    <a href="#" class="mt-6 inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-full transition duration-300">Learn More</a>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md transform hover:scale-105 transition duration-300 border border-gray-200">
+                    <img src="p5.avif" alt="Maintenance" class="mx-auto mb-6 rounded-full">
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Ongoing Hive Management</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        From regular inspections to pest management and swarm prevention, our experts provide comprehensive support to keep your bees healthy and productive.
+                    </p>
+                    <a href="#" class="mt-6 inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-full transition duration-300">Learn More</a>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md transform hover:scale-105 transition duration-300 border border-gray-200">
+                    <img src="p6.avif" alt="Honey Harvest" class="mx-auto mb-6 rounded-full">
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Honey Harvesting & Processing</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        We assist with the safe and efficient harvesting of your urban honey, ensuring it's processed and bottled to the highest standards for your enjoyment.
+                    </p>
+                    <a href="#" class="mt-6 inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-full transition duration-300">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-16 px-6 md:px-12 bg-white rounded-lg shadow-lg my-8 mx-auto max-w-7xl">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-10 text-green-700">Benefits of Urban Beekeeping</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Benefit Card 1 -->
+                <div class="bg-blue-50 p-6 rounded-xl shadow-md border border-gray-200">
+                    <div class="flex items-center justify-center w-16 h-16 bg-green-200 rounded-full mx-auto mb-4">
+                        <svg class="w-8 h-8 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-7 4a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M10 12a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Boost Local Pollination</h3>
+                    <p class="text-gray-700">
+                        Help local flowers, fruits, and vegetables thrive by introducing vital pollinators to your neighborhood.
+                    </p>
+                </div>
+
+                <!-- Benefit Card 2 -->
+                <div class="bg-blue-50 p-6 rounded-xl shadow-md border border-gray-200">
+                    <div class="flex items-center justify-center w-16 h-16 bg-green-200 rounded-full mx-auto mb-4">
+                        <svg class="w-8 h-8 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Enjoy Fresh Local Honey</h3>
+                    <p class="text-gray-700">
+                        Harvest your own delicious, natural honey with unique flavors reflecting your urban flora.
+                    </p>
+                </div>
+
+                <!-- Benefit Card 3 -->
+                <div class="bg-blue-50 p-6 rounded-xl shadow-md border border-gray-200">
+                    <div class="flex items-center justify-center w-16 h-16 bg-green-200 rounded-full mx-auto mb-4">
+                        <svg class="w-8 h-8 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 2a8 8 0 100 16 8 8 0 000-16zm-3.293 9.293a1 1 0 011.414-1.414L9 10.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-1.5-1.5z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Contribute to Biodiversity</h3>
+                    <p class="text-gray-700">
+                        Support the health and diversity of urban ecosystems by providing a safe haven for bees.
+                    </p>
+                </div>
+
+                <!-- Benefit Card 4 -->
+                <div class="bg-blue-50 p-6 rounded-xl shadow-md border border-gray-200">
+                    <div class="flex items-center justify-center w-16 h-16 bg-green-200 rounded-full mx-auto mb-4">
+                        <svg class="w-8 h-8 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17.07A8.001 8.001 0 0020 13a8.001 8.001 0 00-14.07-3.725L10 14l2.93 3.07z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Educational & Engaging Hobby</h3>
+                    <p class="text-gray-700">
+                        Learn about the fascinating world of bees and share this unique experience with family and friends.
+                    </p>
+                </div>
+
+                <!-- Benefit Card 5 -->
+                <div class="bg-blue-50 p-6 rounded-xl shadow-md border border-gray-200">
+                    <div class="flex items-center justify-center w-16 h-16 bg-green-200 rounded-full mx-auto mb-4">
+                        <svg class="w-8 h-8 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l3 3a1 1 0 001.414-1.414L11 9.586V6z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Promote Green Living</h3>
+                    <p class="text-gray-700">
+                        Embrace a sustainable lifestyle and contribute to a greener, healthier urban environment.
+                    </p>
+                </div>
+
+                <!-- Benefit Card 6 -->
+                <div class="bg-blue-50 p-6 rounded-xl shadow-md border border-gray-200">
+                    <div class="flex items-center justify-center w-16 h-16 bg-green-200 rounded-full mx-auto mb-4">
+                        <svg class="w-8 h-8 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 100-6 3 3 0 000 6z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Community Engagement</h3>
+                    <p class="text-gray-700">
+                        Connect with fellow beekeepers and nature enthusiasts, fostering a vibrant local community.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community / Customer Satisfaction Section -->
+    <section id="community" class="py-16 px-6 md:px-12 bg-blue-50 rounded-lg shadow-lg my-8 mx-auto max-w-7xl">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-10 text-green-700">What Our Community Says</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                    <p class="text-lg italic text-gray-700 mb-6">
+                        "Starting urban beekeeping with 'Urban Beekeeping' was the best decision! Their guidance was invaluable, and now I have thriving hives and the most delicious honey. It's truly transformed my backyard into a vibrant ecosystem."
+                    </p>
+                    <p class="font-semibold text-gray-800">- Sarah L., Brooklyn, NY</p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                    <p class="text-lg italic text-gray-700 mb-6">
+                        "The ongoing support from 'Urban Beekeeping' has been fantastic. Whenever I have a question or a concern about my bees, their experts are quick to respond with helpful advice. Highly recommend their services!"
+                    </p>
+                    <p class="font-semibold text-gray-800">- Mark T., London, UK</p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                    <p class="text-lg italic text-gray-700 mb-6">
+                        "I never thought I could keep bees in the city, but 'Urban Beekeeping' made it possible. My garden is flourishing, and it's amazing to see the bees at work. A truly rewarding experience!"
+                    </p>
+                    <p class="font-semibold text-gray-800">- Emily R., Toronto, ON</p>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                    <p class="text-lg italic text-gray-700 mb-6">
+                        "The honey harvesting service was a game-changer. It was so easy and efficient, and now I have jars of my own urban honey to share. Thank you for making beekeeping accessible!"
+                    </p>
+                    <p class="font-semibold text-gray-800">- David P., Sydney, AUS</p>
+                </div>
+            </div>
+            <div class="mt-12">
+                <a href="#" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                    Share Your Story
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer Section (6000+ words placeholder) -->
+    <section id="disclaimer" class="py-16 px-6 md:px-12 bg-white rounded-lg shadow-lg my-8 mx-auto max-w-7xl">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-10 text-red-700">Disclaimer</h2>
+            <div class="text-gray-700 leading-relaxed text-justify">
+                <p class="mb-4">
+                    The information provided on this "Urban Beekeeping" website is for general informational purposes only and does not constitute professional advice. While we strive to ensure the accuracy and completeness of the content, we make no warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk. Urban beekeeping involves inherent risks, including but not limited to bee stings, allergic reactions, and potential legal or regulatory issues depending on your specific location. It is your sole responsibility to research and comply with all local, state, and national laws, ordinances, and regulations pertaining to beekeeping in your area. We strongly advise consulting with local beekeeping associations, agricultural extension offices, or legal professionals to ensure full compliance before engaging in any beekeeping activities.
+                </p>
+                <p class="mb-4">
+                    Under no circumstances will "Urban Beekeeping" or its affiliates, partners, employees, or agents be liable for any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. This includes, without limitation, direct, indirect, incidental, punitive, and consequential damages. Every effort is made to keep the website up and running smoothly. However, "Urban Beekeeping" takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control. The content on this website is subject to change without notice. We reserve the right to modify, add, or remove any part of this disclaimer at any time. Your continued use of the website after any such changes constitutes your acceptance of the new disclaimer.
+                </p>
+                <p class="mb-4">
+                    Links to other websites are provided for your convenience and information only. We have no control over the nature, content, and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them. We are not responsible for the privacy practices or the content of such websites. It is your responsibility to review the privacy policies and terms of service of any third-party websites you visit.
+                </p>
+                <p class="mb-4">
+                    Beekeeping is a dynamic practice, and the health and behavior of bee colonies can be unpredictable. Factors such as weather conditions, local flora, pest infestations, diseases, and environmental stressors can significantly impact a hive's success. The advice and recommendations provided on this website are based on general beekeeping principles and may not be applicable to every unique situation. We encourage users to exercise their own judgment and seek personalized advice from experienced beekeepers or certified professionals when making decisions about their hives.
+                </p>
+                <p class="mb-4">
+                    The information regarding products and services offered on this website, including but not limited to hive equipment, bee packages, and consultation services, is subject to availability and may change without prior notice. Pricing, descriptions, and specifications are provided for informational purposes and are not guaranteed to be error-free. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update information at any time without prior notice.
+                </p>
+                <p class="mb-4">
+                    Any testimonials or success stories shared on this website are individual experiences and do not guarantee similar results for others. Beekeeping outcomes vary widely based on numerous factors, including the beekeeper's skill, local environment, and colony health. We do not claim that you will achieve the same results as those described in testimonials.
+                </p>
+                <p class="mb-4">
+                    The intellectual property rights for all content on this website, including text, images, graphics, and logos, belong to "Urban Beekeeping" unless otherwise stated. Unauthorized reproduction, distribution, or modification of any content is strictly prohibited. You may not use any content for commercial purposes without our express written consent.
+                </p>
+                <p class="mb-4">
+                    By using this website, you agree to indemnify and hold harmless "Urban Beekeeping" and its owners, employees, and affiliates from any claims, damages, losses, liabilities, costs, or expenses (including legal fees) arising out of or in connection with your use of the website or your beekeeping activities. This includes, but is not limited to, any injuries, property damage, or legal disputes that may arise.
+                </p>
+                <p class="mb-4">
+                    This disclaimer constitutes the entire agreement between you and "Urban Beekeeping" regarding your use of this website and supersedes all prior or contemporaneous communications and proposals, whether oral or written, between you and "Urban Beekeeping" with respect to this website. If any provision of this disclaimer is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.
+                </p>
+                <p class="mb-4">
+                    The content provided on this website, including articles, guides, and recommendations, is not intended to be a substitute for professional beekeeping education or hands-on training. We strongly advise new beekeepers to seek mentorship from experienced individuals and participate in local beekeeping workshops or courses to gain practical skills and knowledge. Theoretical understanding alone is insufficient for responsible and successful beekeeping.
+                </p>
+                <p class="mb-4">
+                    It is crucial to understand that bees are wild animals, even when managed in a hive. Their behavior can be unpredictable, and they may sting if they feel threatened or if their hive is disturbed. Individuals with known allergies to bee stings should exercise extreme caution and consult with a medical professional before engaging in beekeeping activities. Appropriate protective gear, including a bee suit, gloves, and veil, should always be worn during hive inspections and other interactions with bees.
+                </p>
+                <p class="mb-4">
+                    The environmental conditions in urban areas can present unique challenges for bee health, such as exposure to pesticides from nearby gardens or public spaces, limited forage diversity, and increased risk of disease transmission due to higher hive densities. While we advocate for sustainable practices, we cannot guarantee that your bees will be immune to these external factors. Regular monitoring and proactive management are essential.
+                </p>
+                <p class="mb-4">
+                    Any financial projections or potential returns mentioned in relation to honey sales or other bee products are estimates only and are not guaranteed. The actual yield and market value of honey can vary significantly based on factors like colony strength, weather, local demand, and marketing efforts. Beekeeping should primarily be undertaken for its ecological benefits and personal enjoyment rather than as a guaranteed source of income.
+                </p>
+                <p class="mb-4">
+                    We are not responsible for any damage or loss to your property, or the property of others, that may result from your beekeeping activities. This includes, but is not limited to, damage caused by swarms, bee activity, or hive components. Proper hive placement, secure installations, and proactive swarm prevention measures are the responsibility of the beekeeper.
+                </p>
+                <p class="mb-4">
+                    The information provided regarding legal and regulatory requirements is for general guidance only and may not be exhaustive or up-to-date for every jurisdiction. Laws and regulations concerning beekeeping are subject to change. It is the user's responsibility to verify the most current and accurate information with their local government and relevant authorities. Failure to comply with local regulations can result in fines or legal action.
+                </p>
+                <p class="mb-4">
+                    While we strive to promote ethical and humane beekeeping practices, we acknowledge that different beekeepers may have varying philosophies and methods. Our recommendations are based on widely accepted best practices, but we encourage users to research and adopt practices that align with their own values and local conditions.
+                </p>
+                <p class="mb-4">
+                    The use of any products or services advertised or linked from this website is at your own discretion and risk. We do not endorse or guarantee the quality, safety, or effectiveness of third-party products or services. It is your responsibility to conduct your own due diligence before making any purchases or commitments.
+                </p>
+                <p class="mb-4">
+                    Any technical issues encountered while using this website, such as broken links, display errors, or slow loading times, should be reported to us. While we endeavor to maintain a functional and user-friendly website, we cannot guarantee uninterrupted access or error-free operation.
+                </p>
+                <p class="mb-4">
+                    By proceeding with urban beekeeping based on information from this site, you acknowledge that you are doing so at your own informed risk and assume full responsibility for all outcomes, positive or negative. This includes understanding the potential for allergic reactions, the need for proper protective gear, and the importance of adhering to all local regulations. We are not liable for any personal injury, property damage, or legal consequences that may arise from your beekeeping activities. This comprehensive disclaimer is designed to ensure that users are fully aware of the responsibilities and potential risks associated with urban beekeeping, and that they understand the informational nature of the content provided herein.
+                </p>
+                <p class="mb-4">
+                    Furthermore, it is imperative for all aspiring and current urban beekeepers to understand the critical role of continuous learning and adaptation. Beekeeping is not a static endeavor; it requires ongoing education and responsiveness to the ever-changing dynamics of a bee colony and its environment. New pests, diseases, and environmental challenges emerge, necessitating updated knowledge and management strategies. This website aims to provide foundational information, but it should be viewed as a starting point, not the definitive guide for all situations. We strongly recommend joining local beekeeping associations, attending workshops, and subscribing to reputable beekeeping journals or online forums to stay abreast of the latest research and best practices.
+                </p>
+                <p class="mb-4">
+                    The information presented on hive management, including inspection frequency, feeding protocols, and swarm control techniques, represents general guidelines. The specific needs of your bee colony will vary based on its strength, local climate, available forage, and the presence of pests or diseases. A keen eye for observation and an understanding of bee behavior are more valuable than rigid adherence to a schedule. Always prioritize the health and well-being of your bees, adjusting your management practices as needed.
+                </p>
+             
+               
+               
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="bg-gray-800 text-white py-12 px-6 md:px-12 rounded-t-lg">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Contact Info -->
+            <div class="text-center md:text-left">
+                <h3 class="text-2xl font-bold mb-4 text-yellow-500">Contact Us</h3>
+                <p class="mb-2">Email: <a href="mailto:info@urbanbeekeeping.com" class="text-green-400 hover:underline">info@urbanbeekeeping.com</a></p>
+                <p class="mb-2">Phone: <a href="tel:+1234567890" class="text-green-400 hover:underline">+1 (234) 567-890</a></p>
+                <p>Hours: Mon - Fri, 9:00 AM - 5:00 PM (Local Time)</p>
+            </div>
+
+            <!-- Address -->
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-4 text-yellow-500">Our Location</h3>
+                <p class="mb-2">Urban Beekeeping Headquarters</p>
+                <p class="mb-2">123 Beehive Lane</p>
+                <p class="mb-2">Metropolis, State 12345</p>
+                <p>Country</p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="text-center md:text-right">
+                <h3 class="text-2xl font-bold mb-4 text-yellow-500">Follow Us</h3>
+                <div class="flex justify-center md:justify-end space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.776-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.247 0-1.626.777-1.626 1.563V12h2.773l-.443 2.89h-2.33V22H12c5.523 0 10-4.477 10-10z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M12.315 2.417a.75.75 0 01.07.867 12.083 12.083 0 007.896 4.688c1.456.232 1.879.578 2.1.81.33.33.642.698.937 1.097a8.523 8.523 0 00.115-.14 2.25 2.25 0 012.185 4.47l-.001.006a13.959 13.959 0 01-1.765 1.196 8.523 8.523 0 01-1.196.115 2.25 2.25 0 01-4.47 2.185l-.006-.001a13.959 13.959 0 01-1.196-1.765 8.523 8.523 0 01-.115-1.196 2.25 2.25 0 01-2.185-4.47l.001-.006a13.959 13.959 0 011.765-1.196 8.523 8.523 0 011.196-.115 2.25 2.25 0 014.47-2.185l.006.001a13.959 13.959 0 011.196 1.765 8.523 8.523 0 01.115 1.196 2.25 2.25 0 012.185 4.47zm-1.044 4.887l-.001.006a13.959 13.959 0 01-1.196 1.765 8.523 8.523 0 01-.115 1.196 2.25 2.25 0 01-2.185 4.47l-.006-.001a13.959 13.959 0 01-1.765-1.196 8.523 8.523 0 01-1.196-.115 2.25 2.25 0 01-4.47-2.185l.001-.006a13.959 13.959 0 011.765-1.196 8.523 8.523 0 011.196-.115 2.25 2.25 0 012.185 4.47z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.007-.532A8.318 8.318 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012 10.77v.058a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.235a11.685 11.685 0 006.29 1.84" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 border-t border-gray-700 pt-8 text-center text-gray-400">
+            &copy; <span id="current-year"></span> Urban Beekeeping. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        // Get current year for footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
